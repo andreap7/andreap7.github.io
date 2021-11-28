@@ -1,11 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Andrea's works</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrea Pažin</title>
 </head>
-<body style="padding:0; margin: 0 auto; height:100%; width:100%; background:#a34263;">
-	<img src="img/bg.jpg" alt="Under construction. The image is not visible for some reason." style="padding:0; margin: 0 auto; height:100%; width:100%;">
+
+<body>
+    <div class="top">
+        <div id="header">
+            <a href="#top" id="logo"></a>
+            <br>
+            <div class="navigation">
+                <a href="#home" class="link">HOME</a>
+                <a href="#portfolio" class="link">PORTFOLIO</a>
+                <a href="#contact" class="link">CONTACT</a>
+            </div>
+        </div>
+        <br>
+        <section id="home">
+            <div id="home-content">
+                <div id="picture"></div>
+                <div id="pictureText">
+                    <p>Fusce tristique placerat ligula, et aliquet ligula volutpat vitae. Sed molestie faucibus ex eu
+                        bibendum. In nunc nulla, commodo at pulvinar eu, mollis vel arcu.
+                        <br>
+                        <br>
+                        Nulla ultrices non nisi id egestas. Fusce non maximus nisl. Nulla vel odio ut est semper:
+                        <br>
+                        <br>
+                        - Integer sed sollicitudin lacus.
+                        <br>
+                        <br>
+                        - In dictum augue sit amet enim eleifend vulputate.
+                        <br>
+                        <br>
+                        - Nunc ultricies id orci nec rutrum.
+                        <br>
+                        <br>
+                        - Donec venenatis maximus tortor.
+                        <br>
+                        <br>
+                        Aenean eget dolor sodales, gravida lorem sit amet, pulvinar massa. Mauris a augue condimentum,
+                        posuere nulla in.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section class="background" id="portfolio">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <div id="scrambled">
+                <a>
+                    <div class="skill" id="webdev">WEB DEVELOPMENT</div>
+                </a>
+                <a>
+                    <div class="skill" id="mobdev">MOBILE DEVELOPMENT</div>
+                </a>
+                <a>
+                    <div class="skill" id="dotnetdev">.NET DEVELOPMENT</div>
+                </a>
+                <a>
+                    <div class="skill" id="uxui">UX/UI DEVELOPMENT</div>
+                </a>
+            </div>
+
+            <div id="carousel">
+
+            </div>
+        </section>
+        <section id="contact">
+            <div id="pic1"></div>
+
+            <div id="form">
+                <div id="cta">
+                    Let's connect!
+                </div>
+                <form action="" method="post">
+                    <div id="name">
+                        <div id="fname">
+                            <label for="fname">First name*</label>
+                            <br>
+                            <input type="text" name="fname" id="fname" required>
+                        </div>
+                        <div id="lname">
+                            <label for="lname">Last name</label>
+                            <br>
+                            <input type="text" name="lname" id="lname">
+                        </div>
+                    </div>
+                    <br>
+                    <div id="email">
+                        <label for="email">Email*</label>
+                        <br>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <br>
+                    <div id="message">
+                        <label for="message">Message*</label>
+                        <br>
+                        <textarea name="message" id="message" rows="10" required></textarea>
+                    </div>
+                    <br>
+                    <div id="submit">
+                        <input type="button" value="SUBMIT">
+                    </div>
+                </form>
+            </div>
+            <div id="plants">
+                <div id="pic2"></div>
+                <div id="pic3"></div>
+            </div>
+        </section>
+    </div>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
